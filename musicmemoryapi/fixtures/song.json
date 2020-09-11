@@ -1,0 +1,3059 @@
+[
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 1,
+    "fields": {
+      "position": 1,
+      "artist": "Harry Richman",
+      "song_title": "Puttin' on the Ritz",
+      "year": 1930
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 2,
+    "fields": {
+      "position": 2,
+      "artist": "Ben Selvin",
+      "song_title": "Happy Days Are Here Again",
+      "year": 1930
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 3,
+    "fields": {
+      "position": 3,
+      "artist": "Ruth Etting",
+      "song_title": "Ten Cents a Dance",
+      "year": 1930
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 4,
+    "fields": {
+      "position": 4,
+      "artist": "Don Azpiazu & his Havana Casino Orchestra",
+      "song_title": "The Peanut Vendor",
+      "year": 1930
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 5,
+    "fields": {
+      "position": 5,
+      "artist": "Paul Whiteman",
+      "song_title": "Body & Soul",
+      "year": 1930
+    }
+  },
+
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 6,
+    "fields": {
+      "position": 1,
+      "artist": "Cab Calloway & his Cotton Club Orchestra",
+      "song_title": "Minnie the Moocher",
+      "year": 1931
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 7,
+    "fields": {
+      "position": 2,
+      "artist": "Ted Lewis & his Orchestra",
+      "song_title": "Just a Gigolo",
+      "year": 1931
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 8,
+    "fields": {
+      "position": 3,
+      "artist": "Duke Ellington",
+      "song_title": "Mood Indigo",
+      "year": 1931
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 9,
+    "fields": {
+      "position": 4,
+      "artist": "Bing Crosby",
+      "song_title": "Out of Nowhere",
+      "year": 1931
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 10,
+    "fields": {
+      "position": 5,
+      "artist": "Wayne King",
+      "song_title": "Dream a Little Dream of Me",
+      "year": 1931
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 11,
+    "fields": {
+      "position": 1,
+      "artist": "Fred Astaire & Leo Reisman",
+      "song_title": "Night & Day",
+      "year": 1932
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 12,
+    "fields": {
+      "position": 2,
+      "artist": "Bing Crosby",
+      "song_title": "Brother, Can You Spare a Dime?",
+      "year": 1932
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 13,
+    "fields": {
+      "position": 3,
+      "artist": "Rudy Vallee & his Connecticut Yankees",
+      "song_title": "Brother, Can You Spare a Dime?",
+      "year": 1932
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 14,
+    "fields": {
+      "position": 4,
+      "artist": "Louis Armstrong",
+      "song_title": "All of Me",
+      "year": 1932
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 15,
+    "fields": {
+      "position": 5,
+      "artist": "Bing Crosby & The Mills Brothers",
+      "song_title": "Dinah",
+      "year": 1932
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 16,
+    "fields": {
+      "position": 1,
+      "artist": "Ethel Waters",
+      "song_title": "Stormy Weather (Keeps Rainin' All the Time)",
+      "year": 1933
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 17,
+    "fields": {
+      "position": 2,
+      "artist": "Duke Ellington",
+      "song_title": "Sophisticated Lady",
+      "year": 1933
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 18,
+    "fields": {
+      "position": 3,
+      "artist": "Bing Crosby",
+      "song_title": "Shadow Waltz",
+      "year": 1933
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 19,
+    "fields": {
+      "position": 4,
+      "artist": "Dick Powell",
+      "song_title": "Gold Digger's Song (We're in The Money)",
+      "year": 1933
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 20,
+    "fields": {
+      "position": 5,
+      "artist": "Bing Crosby",
+      "song_title": "You're Getting to Be a Habit",
+      "year": 1933
+    }
+  },
+
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 21,
+    "fields": {
+      "position": 1,
+      "artist": "Leo Reisman",
+      "song_title": "Continental (you Kiss While You're Dancing)",
+      "year": 1934
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 22,
+    "fields": {
+      "position": 2,
+      "artist": "Paul Whiteman",
+      "song_title": "Smoke Gets in Your Eyes",
+      "year": 1934
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 23,
+    "fields": {
+      "position": 3,
+      "artist": "Duke Ellington",
+      "song_title": "Cocktails For Two",
+      "year": 1934
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 24,
+    "fields": {
+      "position": 4,
+      "artist": "Ray Noble",
+      "song_title": "The Very Thought of You",
+      "year": 1934
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 25,
+    "fields": {
+      "position": 5,
+      "artist": "Bing Crosby",
+      "song_title": "Love in Bloom",
+      "year": 1934
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 26,
+    "fields": {
+      "position": 1,
+      "artist": "Fred Astaire",
+      "song_title": "Cheek to Cheek",
+      "year": 1935
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 27,
+    "fields": {
+      "position": 2,
+      "artist": "Eddy Duchin",
+      "song_title": "Lovely to Look At",
+      "year": 1935
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 28,
+    "fields": {
+      "position": 3,
+      "artist": "The Carter Family",
+      "song_title": "Can the Circle be Unbroken (Bye & Bye)",
+      "year": 1935
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 29,
+    "fields": {
+      "position": 4,
+      "artist": "Shirley Temple",
+      "song_title": "On The Good Ship Lollipop",
+      "year": 1935
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 30,
+    "fields": {
+      "position": 5,
+      "artist": "Bing Crosby",
+      "song_title": "Silent Night, Holy Night",
+      "year": 1935
+    }
+  },
+
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 31,
+    "fields": {
+      "position": 1,
+      "artist": "Bing Crosby",
+      "song_title": "Pennies From Heaven",
+      "year": 1936
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 32,
+    "fields": {
+      "position": 2,
+      "artist": "Fred Astaire",
+      "song_title": "The Way You Look Tonight",
+      "year": 1936
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 33,
+    "fields": {
+      "position": 3,
+      "artist": "Leadbelly",
+      "song_title": "Goodnight, Irene",
+      "year": 1936
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 34,
+    "fields": {
+      "position": 4,
+      "artist": "Benny Goodman",
+      "song_title": "Goody Goody",
+      "year": 1936
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 35,
+    "fields": {
+      "position": 5,
+      "artist": "Benny Goodman",
+      "song_title": "Glory of Love",
+      "year": 1936
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 36,
+    "fields": {
+      "position": 1,
+      "artist": "Benny Goodman",
+      "song_title": "Sing, Sing, Sing (With A Swing)",
+      "year": 1937
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 37,
+    "fields": {
+      "position": 2,
+      "artist": "Count Basie",
+      "song_title": "One O'Clock Jump",
+      "year": 1937
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 38,
+    "fields": {
+      "position": 3,
+      "artist": "Bing Crosby",
+      "song_title": "Sweet Leilani",
+      "year": 1937
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 39,
+    "fields": {
+      "position": 4,
+      "artist": "Fred Astaire",
+      "song_title": "They Can't Take That Away From Me",
+      "year": 1937
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 40,
+    "fields": {
+      "position": 5,
+      "artist": "Duke Ellington",
+      "song_title": "Caravan",
+      "year": 1937
+    }
+  },
+
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 41,
+    "fields": {
+      "position": 1,
+      "artist": "Artie Shaw",
+      "song_title": "Begin the Beguine",
+      "year": 1938
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 42,
+    "fields": {
+      "position": 2,
+      "artist": "The Andrews Sisters",
+      "song_title": "Bei Mir Bist Du Schoen",
+      "year": 1938
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 43,
+    "fields": {
+      "position": 3,
+      "artist": "Ella Fitzgerald",
+      "song_title": "A-Tisket A-Tasket",
+      "year": 1938
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 44,
+    "fields": {
+      "position": 4,
+      "artist": "Roy Acuff",
+      "song_title": "Wabash Cannonball",
+      "year": 1938
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 45,
+    "fields": {
+      "position": 5,
+      "artist": "Bob Hope & Shirley Ross",
+      "song_title": "Thanks For the Memory",
+      "year": 1938
+    }
+  },
+
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 46,
+    "fields": {
+      "position": 1,
+      "artist": "Judy Garland",
+      "song_title": "Over the Rainbow",
+      "year": 1939
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 47,
+    "fields": {
+      "position": 2,
+      "artist": "Glenn Miller",
+      "song_title": "Moonlight Serenade",
+      "year": 1939
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 48,
+    "fields": {
+      "position": 3,
+      "artist": "Kate Smith",
+      "song_title": "God Bless America",
+      "year": 1939
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 49,
+    "fields": {
+      "position": 4,
+      "artist": "Billie Holiday",
+      "song_title": "Strange Fruit",
+      "year": 1939
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 50,
+    "fields": {
+      "position": 5,
+      "artist": "Coleman Hawkins",
+      "song_title": "Body & Soul",
+      "year": 1939
+    }
+  },
+
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 51,
+    "fields": {
+      "position": 1,
+      "artist": "Glenn Miller",
+      "song_title": "In the Mood",
+      "year": 1940
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 52,
+    "fields": {
+      "position": 2,
+      "artist": "Artie Shaw",
+      "song_title": "Frenesi",
+      "year": 1940
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 53,
+    "fields": {
+      "position": 3,
+      "artist": "Tommy Dorsey & Frank Sinatra",
+      "song_title": "I'll Never Smile Again",
+      "year": 1940
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 54,
+    "fields": {
+      "position": 4,
+      "artist": "Cliff Edwards (Ukelele Ike)",
+      "song_title": "When You Wish Upon a Star",
+      "year": 1940
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 55,
+    "fields": {
+      "position": 5,
+      "artist": "Bing Crosby",
+      "song_title": "Only Forever",
+      "year": 1940
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 56,
+    "fields": {
+      "position": 1,
+      "artist": "Glenn Miller",
+      "song_title": "Chattanooga Choo Choo",
+      "year": 1941
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 57,
+    "fields": {
+      "position": 2,
+      "artist": "Sammy Kaye",
+      "song_title": "Daddy",
+      "year": 1941
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 58,
+    "fields": {
+      "position": 3,
+      "artist": "The Ink Spots",
+      "song_title": "We Three (My Echo, My Shadow & Me)",
+      "year": 1941
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 59,
+    "fields": {
+      "position": 4,
+      "artist": "Jimmy Dorsey",
+      "song_title": "Maria Elena",
+      "year": 1941
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 60,
+    "fields": {
+      "position": 5,
+      "artist": "Jimmy Dorsey",
+      "song_title": "Green Eyes",
+      "year": 1941
+    }
+  },
+
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 61,
+    "fields": {
+      "position": 1,
+      "artist": "Bing Crosby",
+      "song_title": "White Christmas",
+      "year": 1942
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 62,
+    "fields": {
+      "position": 2,
+      "artist": "Glenn Miller",
+      "song_title": "(I've Got a Gal In) Kalamazoo",
+      "year": 1942
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 63,
+    "fields": {
+      "position": 3,
+      "artist": "Jimmy Dorsey",
+      "song_title": "Tangerine",
+      "year": 1942
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 64,
+    "fields": {
+      "position": 4,
+      "artist": "Glenn Miller",
+      "song_title": "Moonlight Cocktail",
+      "year": 1942
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 65,
+    "fields": {
+      "position": 5,
+      "artist": "Harry James",
+      "song_title": "Sleepy Lagoon",
+      "year": 1942
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 66,
+    "fields": {
+      "position": 1,
+      "artist": "The Mills Brothers",
+      "song_title": "Paper Doll",
+      "year": 1943
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 67,
+    "fields": {
+      "position": 2,
+      "artist": "Dick Haymes",
+      "song_title": "You'll Never Know",
+      "year": 1943
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 68,
+    "fields": {
+      "position": 3,
+      "artist": "Al Dexter & his Troopers",
+      "song_title": "Pistol Packin' Mama",
+      "year": 1943
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 69,
+    "fields": {
+      "position": 4,
+      "artist": "Harry James",
+      "song_title": "I've Heard That Song Before",
+      "year": 1943
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 70,
+    "fields": {
+      "position": 5,
+      "artist": "Bing Crosby",
+      "song_title": "Sunday, Monday or Always",
+      "year": 1943
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 71,
+    "fields": {
+      "position": 1,
+      "artist": "Bing Crosby",
+      "song_title": "Swinging On a Star",
+      "year": 1944
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 72,
+    "fields": {
+      "position": 2,
+      "artist": "Bing Crosby & The Andrews Sisters",
+      "song_title": "Don't Fence Me In",
+      "year": 1944
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 73,
+    "fields": {
+      "position": 3,
+      "artist": "Bing Crosby",
+      "song_title": "I'll be seeing you",
+      "year": 1944
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 74,
+    "fields": {
+      "position": 4,
+      "artist": "Jimmy Dorsey",
+      "song_title": "Besame Mucho",
+      "year": 1944
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 75,
+    "fields": {
+      "position": 5,
+      "artist": "The Mills Brothers",
+      "song_title": "You Always Hurt the One You Love",
+      "year": 1944
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 76,
+    "fields": {
+      "position": 1,
+      "artist": "Les Brown & Doris Day",
+      "song_title": "Sentimental Journey",
+      "year": 1945
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 77,
+    "fields": {
+      "position": 2,
+      "artist": "The Andrews Sisters",
+      "song_title": "Rum & Coca-Cola",
+      "year": 1945
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 78,
+    "fields": {
+      "position": 3,
+      "artist": "Perry Como",
+      "song_title": "Till The End of Time",
+      "year": 1945
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 79,
+    "fields": {
+      "position": 4,
+      "artist": "Johnny Mercer",
+      "song_title": "On the Atchison, Topeka & the Santa Fe",
+      "year": 1945
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 80,
+    "fields": {
+      "position": 5,
+      "artist": "Bing Crosby & Les Paul",
+      "song_title": "It's Been a Long, Long Time",
+      "year": 1945
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 81,
+    "fields": {
+      "position": 1,
+      "artist": "Frank Sinatra",
+      "song_title": "Five Minutes More",
+      "year": 1946
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 82,
+    "fields": {
+      "position": 2,
+      "artist": "Perry Como",
+      "song_title": "Prisoner of Love",
+      "year": 1946
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 83,
+    "fields": {
+      "position": 3,
+      "artist": "Nat King Cole",
+      "song_title": "(I Love You) For Sentimental Reasons",
+      "year": 1946
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 84,
+    "fields": {
+      "position": 4,
+      "artist": "Vaughn Monroe",
+      "song_title": "Let it Snow! Let it Snow! Let it Snow!",
+      "year": 1946
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 85,
+    "fields": {
+      "position": 5,
+      "artist": "The Ink Spots",
+      "song_title": "To Each His Own",
+      "year": 1946
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 86,
+    "fields": {
+      "position": 1,
+      "artist": "Francis Craig",
+      "song_title": "Near You",
+      "year": 1947
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 87,
+    "fields": {
+      "position": 2,
+      "artist": "Vaughn Monroe",
+      "song_title": "Ballerina",
+      "year": 1947
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 88,
+    "fields": {
+      "position": 3,
+      "artist": "Perry Como",
+      "song_title": "Chi-Baba, Chi-Baba (My Bambino Go to Sleep)",
+      "year": 1947
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 89,
+    "fields": {
+      "position": 4,
+      "artist": "Tex Williams & The Western Caravan",
+      "song_title": "Smoke! Smoke! Smoke! (That Cigarette)",
+      "year": 1947
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 90,
+    "fields": {
+      "position": 5,
+      "artist": "Jerry Murad's Harmonicats",
+      "song_title": "Peg o' My Heart",
+      "year": 1947
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 91,
+    "fields": {
+      "position": 1,
+      "artist": "Dinah Shore",
+      "song_title": "Buttons & Bows",
+      "year": 1948
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 92,
+    "fields": {
+      "position": 2,
+      "artist": "Pee Wee Hunt",
+      "song_title": "12th Street Rag",
+      "year": 1948
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 93,
+    "fields": {
+      "position": 3,
+      "artist": "Nat King Cole",
+      "song_title": "Nature Boy",
+      "year": 1948
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 94,
+    "fields": {
+      "position": 4,
+      "artist": "Art Mooney",
+      "song_title": "I'm Looking Over a Four Leaf Clover",
+      "year": 1948
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 95,
+    "fields": {
+      "position": 5,
+      "artist": "Kay Kyser",
+      "song_title": "The Woody Woodpecker Song",
+      "year": 1948
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 96,
+    "fields": {
+      "position": 1,
+      "artist": "Vaughn Monroe",
+      "song_title": "(Ghost) Riders in the Sky",
+      "year": 1949
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 97,
+    "fields": {
+      "position": 2,
+      "artist": "Gene Autry",
+      "song_title": "Rudolph, the Red-Nosed Reindeer",
+      "year": 1949
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 98,
+    "fields": {
+      "position": 3,
+      "artist": "Frankie Laine",
+      "song_title": "Mule Train",
+      "year": 1949
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 99,
+    "fields": {
+      "position": 4,
+      "artist": "Evelyn Knight",
+      "song_title": "A Little Bird Told Me",
+      "year": 1949
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 100,
+    "fields": {
+      "position": 5,
+      "artist": "Frankie Laine",
+      "song_title": "That Lucky Old Sun (Just Rolls Around Heaven All Day)",
+      "year": 1949
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 101,
+    "fields": {
+      "position": 1,
+      "artist": "Nat King Cole",
+      "song_title": "Mona Lisa",
+      "year": 1950
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 102,
+    "fields": {
+      "position": 2,
+      "artist": "Anton Karas",
+      "song_title": "Third Man Theme",
+      "year": 1950
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 103,
+    "fields": {
+      "position": 3,
+      "artist": "Patti Page",
+      "song_title": "Tennessee Waltz",
+      "year": 1950
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 104,
+    "fields": {
+      "position": 4,
+      "artist": "Gary and Bing Crosby",
+      "song_title": "Sam's Song",
+      "year": 1950
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 105,
+    "fields": {
+      "position": 5,
+      "artist": "Gordon Jenkins & The Weavers",
+      "song_title": "Goodnight, Irene",
+      "year": 1950
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 106,
+    "fields": {
+      "position": 1,
+      "artist": "Nat King Cole",
+      "song_title": "Too Young",
+      "year": 1951
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 107,
+    "fields": {
+      "position": 2,
+      "artist": "Tony Bennett",
+      "song_title": "Because Of You",
+      "year": 1951
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 108,
+    "fields": {
+      "position": 3,
+      "artist": "Les Paul and Mary Ford",
+      "song_title": "How High The Moon",
+      "year": 1951
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 109,
+    "fields": {
+      "position": 4,
+      "artist": "Rosemary Clooney",
+      "song_title": "Come On-a My House",
+      "year": 1951
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 110,
+    "fields": {
+      "position": 5,
+      "artist": "Mario Lanza",
+      "song_title": "Be My Love",
+      "year": 1951
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 111,
+    "fields": {
+      "position": 1,
+      "artist": "Leroy Anderson",
+      "song_title": "Blue Tango",
+      "year": 1952
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 112,
+    "fields": {
+      "position": 2,
+      "artist": "Kay Starr",
+      "song_title": "Wheel Of Fortune",
+      "year": 1952
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 113,
+    "fields": {
+      "position": 3,
+      "artist": "Johnnie Ray",
+      "song_title": "Cry",
+      "year": 1952
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 114,
+    "fields": {
+      "position": 4,
+      "artist": "Jo Stafford",
+      "song_title": "You Belong To Me",
+      "year": 1952
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 115,
+    "fields": {
+      "position": 5,
+      "artist": "Vera Lynn",
+      "song_title": "Auf Wiederseh'n, Sweetheart",
+      "year": 1952
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 116,
+    "fields": {
+      "position": 1,
+      "artist": "Percy Faith",
+      "song_title": "Song From Moulin Rouge",
+      "year": 1953
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 117,
+    "fields": {
+      "position": 2,
+      "artist": "Les Paul and Mary Ford",
+      "song_title": "Vaya Con Dios",
+      "year": 1953
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 118,
+    "fields": {
+      "position": 3,
+      "artist": "Patti Page",
+      "song_title": "Doggie In The Window",
+      "year": 1953
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 119,
+    "fields": {
+      "position": 4,
+      "artist": "Eddie Fisher",
+      "song_title": "I'm Walking Behind You",
+      "year": 1953
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 120,
+    "fields": {
+      "position": 5,
+      "artist": "Ames Brothers",
+      "song_title": "You, You, You",
+      "year": 1953
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 121,
+    "fields": {
+      "position": 1,
+      "artist": "Kitty Kallen",
+      "song_title": "Little Things Mean A Lot",
+      "year": 1954
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 122,
+    "fields": {
+      "position": 2,
+      "artist": "Perry Como",
+      "song_title": "Wanted",
+      "year": 1954
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 123,
+    "fields": {
+      "position": 3,
+      "artist": "Rosemary Clooney",
+      "song_title": "Hey There",
+      "year": 1954
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 124,
+    "fields": {
+      "position": 4,
+      "artist": "Crew Cuts",
+      "song_title": "Sh-Boom",
+      "year": 1954
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 125,
+    "fields": {
+      "position": 5,
+      "artist": "Jo Stafford",
+      "song_title": "Make Love To Me",
+      "year": 1954
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 126,
+    "fields": {
+      "position": 1,
+      "artist": "Perez Prado",
+      "song_title": "Cherry Pink And Apple Blossom White",
+      "year": 1955
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 127,
+    "fields": {
+      "position": 2,
+      "artist": "Bill Haley and His Comets",
+      "song_title": "Rock Around The Clock",
+      "year": 1955
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 128,
+    "fields": {
+      "position": 3,
+      "artist": "Mitch Miller",
+      "song_title": "The Yellow Rose Of Texas",
+      "year": 1955
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 129,
+    "fields": {
+      "position": 4,
+      "artist": "Roger Williams",
+      "song_title": "Autumn Leaves",
+      "year": 1955
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 130,
+    "fields": {
+      "position": 5,
+      "artist": "Les Baxter",
+      "song_title": "Unchained Melody",
+      "year": 1955
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 131,
+    "fields": {
+      "position": 1,
+      "artist": "Elvis Presley",
+      "song_title": "Heartbreak Hotel",
+      "year": 1956
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 132,
+    "fields": {
+      "position": 2,
+      "artist": "Elvis Presley",
+      "song_title": "Don't Be Cruel",
+      "year": 1956
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 133,
+    "fields": {
+      "position": 3,
+      "artist": "Nelson Riddle",
+      "song_title": "Lisbon Antigua",
+      "year": 1956
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 134,
+    "fields": {
+      "position": 4,
+      "artist": "Platters",
+      "song_title": "My Prayer",
+      "year": 1956
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 135,
+    "fields": {
+      "position": 5,
+      "artist": "Gogi Grant",
+      "song_title": "The Wayward Wind",
+      "year": 1956
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 136,
+    "fields": {
+      "position": 1,
+      "artist": "Elvis Presley",
+      "song_title": "All Shook Up",
+      "year": 1957
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 137,
+    "fields": {
+      "position": 2,
+      "artist": "Pat Boone",
+      "song_title": "Love Letters In The Sand",
+      "year": 1957
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 138,
+    "fields": {
+      "position": 3,
+      "artist": "Diamonds",
+      "song_title": "Little Darlin'",
+      "year": 1957
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 139,
+    "fields": {
+      "position": 4,
+      "artist": "Tab Hunter",
+      "song_title": "Young Love",
+      "year": 1957
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 140,
+    "fields": {
+      "position": 5,
+      "artist": "Jimmy Dorsey",
+      "song_title": "So Rare",
+      "year": 1957
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 141,
+    "fields": {
+      "position": 1,
+      "artist": "Domenico Modugno",
+      "song_title": "Volare (Nel Blu Dipinto Di Blu)",
+      "year": 1958
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 142,
+    "fields": {
+      "position": 2,
+      "artist": "Everly Brothers",
+      "song_title": "All I Have To Do Is Dream / Claudette",
+      "year": 1958
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 143,
+    "fields": {
+      "position": 3,
+      "artist": "Elvis Presley",
+      "song_title": "Don't / I Beg Of You",
+      "year": 1958
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 144,
+    "fields": {
+      "position": 4,
+      "artist": "David Seville",
+      "song_title": "Witch Doctor",
+      "year": 1958
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 145,
+    "fields": {
+      "position": 5,
+      "artist": "Perez Prado",
+      "song_title": "Patricia",
+      "year": 1958
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 146,
+    "fields": {
+      "position": 1,
+      "artist": "Johnny Horton",
+      "song_title": "The Battle Of New Orleans",
+      "year": 1959
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 147,
+    "fields": {
+      "position": 2,
+      "artist": "Bobby Darin",
+      "song_title": "Mack The Knife",
+      "year": 1959
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 148,
+    "fields": {
+      "position": 3,
+      "artist": "Lloyd Price",
+      "song_title": "Personality",
+      "year": 1959
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 149,
+    "fields": {
+      "position": 4,
+      "artist": "Frankie Avalon",
+      "song_title": "Venus",
+      "year": 1959
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 150,
+    "fields": {
+      "position": 5,
+      "artist": "Paul Anka",
+      "song_title": "Lonely Boy",
+      "year": 1959
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 151,
+    "fields": {
+      "position": 1,
+      "artist": "Percy Faith",
+      "song_title": "Theme From \"A Summer Place",
+      "year": 1960
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 152,
+    "fields": {
+      "position": 2,
+      "artist": "Jim Reeves",
+      "song_title": "He'll Have To Go",
+      "year": 1960
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 153,
+    "fields": {
+      "position": 3,
+      "artist": "Everly Brothers",
+      "song_title": "Cathy's Clown",
+      "year": 1960
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 154,
+    "fields": {
+      "position": 4,
+      "artist": "Johnny Preston",
+      "song_title": "Running Bear",
+      "year": 1960
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 155,
+    "fields": {
+      "position": 5,
+      "artist": "Mark Dinning",
+      "song_title": "Teen Angel",
+      "year": 1960
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 156,
+    "fields": {
+      "position": 1,
+      "artist": "Bobby Lewis",
+      "song_title": "Tossin' And Turnin'",
+      "year": 1961
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 157,
+    "fields": {
+      "position": 2,
+      "artist": "Patsy Cline",
+      "song_title": "I Fall To Pieces",
+      "year": 1961
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 158,
+    "fields": {
+      "position": 3,
+      "artist": "Highwaymen",
+      "song_title": "Michael",
+      "year": 1961
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 159,
+    "fields": {
+      "position": 4,
+      "artist": "Roy Orbison",
+      "song_title": "Cryin'",
+      "year": 1961
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 160,
+    "fields": {
+      "position": 5,
+      "artist": "Del Shannon",
+      "song_title": "Runaway",
+      "year": 1961
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 161,
+    "fields": {
+      "position": 1,
+      "artist": "Mr. Acker Bilk",
+      "song_title": "Stranger On The Shore",
+      "year": 1962
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 162,
+    "fields": {
+      "position": 2,
+      "artist": "Ray Charles",
+      "song_title": "I Can't Stop Loving You",
+      "year": 1962
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 163,
+    "fields": {
+      "position": 3,
+      "artist": "Dee Dee Sharp",
+      "song_title": "Mashed Potato Time",
+      "year": 1962
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 164,
+    "fields": {
+      "position": 4,
+      "artist": "Bobby Vinton",
+      "song_title": "Roses Are Red (My Love)",
+      "year": 1962
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 165,
+    "fields": {
+      "position": 5,
+      "artist": "David Rose",
+      "song_title": "The Stripper",
+      "year": 1962
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 166,
+    "fields": {
+      "position": 1,
+      "artist": "Jimmy Gilmer and The Fireballs",
+      "song_title": "Sugar Shack",
+      "year": 1963
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 167,
+    "fields": {
+      "position": 2,
+      "artist": "Beach Boys",
+      "song_title": "Surfin' U.S.A.",
+      "year": 1963
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 168,
+    "fields": {
+      "position": 3,
+      "artist": "Skeeter Davis",
+      "song_title": "The End Of The World",
+      "year": 1963
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 169,
+    "fields": {
+      "position": 4,
+      "artist": "Cascades",
+      "song_title": "Rhythm Of The Rain",
+      "year": 1963
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 170,
+    "fields": {
+      "position": 5,
+      "artist": "Chiffons",
+      "song_title": "He's So Fine",
+      "year": 1963
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 171,
+    "fields": {
+      "position": 1,
+      "artist": "Beatles",
+      "song_title": "I Want To Hold Your Hand",
+      "year": 1964
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 172,
+    "fields": {
+      "position": 2,
+      "artist": "Beatles",
+      "song_title": "She Loves You",
+      "year": 1964
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 173,
+    "fields": {
+      "position": 3,
+      "artist": "Louis Armstrong",
+      "song_title": "Hello, Dolly!",
+      "year": 1964
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 174,
+    "fields": {
+      "position": 4,
+      "artist": "Roy Orbison",
+      "song_title": "Oh, Pretty Woman",
+      "year": 1964
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 175,
+    "fields": {
+      "position": 5,
+      "artist": "Beach Boys",
+      "song_title": "I Get Around",
+      "year": 1964
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 176,
+    "fields": {
+      "position": 1,
+      "artist": "Sam The Sham and The Pharaohs",
+      "song_title": "Wooly Bully",
+      "year": 1965
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 177,
+    "fields": {
+      "position": 2,
+      "artist": "Four Tops",
+      "song_title": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+      "year": 1965
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 178,
+    "fields": {
+      "position": 3,
+      "artist": "Rolling Stones",
+      "song_title": "(I Can't Get No) Satisfaction",
+      "year": 1965
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 179,
+    "fields": {
+      "position": 4,
+      "artist": "We Five",
+      "song_title": "You Were On My Mind",
+      "year": 1965
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 180,
+    "fields": {
+      "position": 5,
+      "artist": "Righteous Brothers",
+      "song_title": "You've Lost That Lovin' Feelin'",
+      "year": 1965
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 181,
+    "fields": {
+      "position": 1,
+      "artist": "Sgt. Barry Sadler",
+      "song_title": "The Ballad Of The Green Berets",
+      "year": 1966
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 182,
+    "fields": {
+      "position": 2,
+      "artist": "Association",
+      "song_title": "Cherish",
+      "year": 1966
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 183,
+    "fields": {
+      "position": 3,
+      "artist": "Righteous Brothers",
+      "song_title": "(You're My) Soul And Inspiration",
+      "year": 1966
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 184,
+    "fields": {
+      "position": 4,
+      "artist": "Four Tops",
+      "song_title": "Reach Out I'll Be There",
+      "year": 1966
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 185,
+    "fields": {
+      "position": 5,
+      "artist": "? and The Mysterians",
+      "song_title": "96 Tears",
+      "year": 1966
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 186,
+    "fields": {
+      "position": 1,
+      "artist": "Lulu",
+      "song_title": "To Sir With Love",
+      "year": 1967
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 187,
+    "fields": {
+      "position": 2,
+      "artist": "Box Tops",
+      "song_title": "The Letter",
+      "year": 1967
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 188,
+    "fields": {
+      "position": 3,
+      "artist": "Bobby Gentry",
+      "song_title": "Ode To Billie Joe",
+      "year": 1967
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 189,
+    "fields": {
+      "position": 4,
+      "artist": "Association",
+      "song_title": "Windy",
+      "year": 1967
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 190,
+    "fields": {
+      "position": 5,
+      "artist": "Monkees",
+      "song_title": "I'm A Believer",
+      "year": 1967
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 191,
+    "fields": {
+      "position": 1,
+      "artist": "Beatles",
+      "song_title": "Hey Jude",
+      "year": 1968
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 192,
+    "fields": {
+      "position": 2,
+      "artist": "Paul Mauriat",
+      "song_title": "Love Is Blue",
+      "year": 1968
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 193,
+    "fields": {
+      "position": 3,
+      "artist": "Bobby Goldsboro",
+      "song_title": "Honey",
+      "year": 1968
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 194,
+    "fields": {
+      "position": 4,
+      "artist": "Otis Redding",
+      "song_title": "(Sittin' On) The Dock Of The Bay",
+      "year": 1968
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 195,
+    "fields": {
+      "position": 5,
+      "artist": "Rascals",
+      "song_title": "People Got To Be Free",
+      "year": 1968
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 196,
+    "fields": {
+      "position": 1,
+      "artist": "Archies",
+      "song_title": "Sugar, Sugar",
+      "year": 1969
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 197,
+    "fields": {
+      "position": 2,
+      "artist": "Fifth Dimension",
+      "song_title": "Aquarius / Let The Sunshine In",
+      "year": 1969
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 198,
+    "fields": {
+      "position": 3,
+      "artist": "Temptations",
+      "song_title": "I Can't Get Next To You",
+      "year": 1969
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 199,
+    "fields": {
+      "position": 4,
+      "artist": "Rolling Stones",
+      "song_title": "Honky Tonk Women",
+      "year": 1969
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 200,
+    "fields": {
+      "position": 5,
+      "artist": "Sly and The Family Stone",
+      "song_title": "Everyday People",
+      "year": 1969
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 201,
+    "fields": {
+      "position": 1,
+      "artist": "Simon and Garfunkel",
+      "song_title": "Bridge Over Troubled Water",
+      "year": 1970
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 202,
+    "fields": {
+      "position": 2,
+      "artist": "Carpenters",
+      "song_title": "(They Long To Be) Close To You",
+      "year": 1970
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 203,
+    "fields": {
+      "position": 3,
+      "artist": "Guess Who",
+      "song_title": "American Woman / No Sugar Tonight",
+      "year": 1970
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 204,
+    "fields": {
+      "position": 4,
+      "artist": "B.J. Thomas",
+      "song_title": "Raindrops Keep Fallin' On My Head",
+      "year": 1970
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 205,
+    "fields": {
+      "position": 5,
+      "artist": "Edwin Starr",
+      "song_title": "War",
+      "year": 1970
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 206,
+    "fields": {
+      "position": 1,
+      "artist": "Three Dog Night",
+      "song_title": "Joy To The World",
+      "year": 1971
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 207,
+    "fields": {
+      "position": 2,
+      "artist": "Rod Stewart",
+      "song_title": "Maggie May / (Find A) Reason To Believe",
+      "year": 1971
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 208,
+    "fields": {
+      "position": 3,
+      "artist": "Carole King",
+      "song_title": "It's Too Late / I Feel The Earth Move",
+      "year": 1971
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 209,
+    "fields": {
+      "position": 4,
+      "artist": "Osmonds",
+      "song_title": "One Bad Apple",
+      "year": 1971
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 210,
+    "fields": {
+      "position": 5,
+      "artist": "Bee Gees",
+      "song_title": "How Can You Mend A Broken Heart",
+      "year": 1971
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 211,
+    "fields": {
+      "position": 1,
+      "artist": "Roberta Flack",
+      "song_title": "The First Time Ever I Saw Your Face",
+      "year": 1972
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 212,
+    "fields": {
+      "position": 2,
+      "artist": "Gilbert O'Sullivan",
+      "song_title": "Alone Again (Naturally)",
+      "year": 1972
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 213,
+    "fields": {
+      "position": 3,
+      "artist": "Don McLean",
+      "song_title": "American Pie",
+      "year": 1972
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 214,
+    "fields": {
+      "position": 4,
+      "artist": "Nilsson",
+      "song_title": "Without You",
+      "year": 1972
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 215,
+    "fields": {
+      "position": 5,
+      "artist": "Sammy Davis Jr.",
+      "song_title": "Candy Man",
+      "year": 1972
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 216,
+    "fields": {
+      "position": 1,
+      "artist": "Tony Orlando and Dawn",
+      "song_title": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+      "year": 1973
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 217,
+    "fields": {
+      "position": 2,
+      "artist": "Jim Croce",
+      "song_title": "Bad Bad Leroy Brown",
+      "year": 1973
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 218,
+    "fields": {
+      "position": 3,
+      "artist": "Roberta Flack",
+      "song_title": "Killing Me Softly With His Song",
+      "year": 1973
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 219,
+    "fields": {
+      "position": 4,
+      "artist": "Marvin Gaye",
+      "song_title": "Let's Get It On",
+      "year": 1973
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 220,
+    "fields": {
+      "position": 5,
+      "artist": "Paul McCartney and Wings",
+      "song_title": "My Love",
+      "year": 1973
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 221,
+    "fields": {
+      "position": 1,
+      "artist": "Barbra Streisand",
+      "song_title": "The Way We Were",
+      "year": 1974
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 222,
+    "fields": {
+      "position": 2,
+      "artist": "Terry Jacks",
+      "song_title": "Seasons In The Sun",
+      "year": 1974
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 223,
+    "fields": {
+      "position": 3,
+      "artist": "Love Unlimited Orchestra",
+      "song_title": "Love's Theme",
+      "year": 1974
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 224,
+    "fields": {
+      "position": 4,
+      "artist": "Redbone",
+      "song_title": "Come And Get Your Love",
+      "year": 1974
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 225,
+    "fields": {
+      "position": 5,
+      "artist": "Jackson 5",
+      "song_title": "Dancing Machine",
+      "year": 1974
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 226,
+    "fields": {
+      "position": 1,
+      "artist": "Captain and Tennille",
+      "song_title": "Love Will Keep Us Together",
+      "year": 1975
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 227,
+    "fields": {
+      "position": 2,
+      "artist": "Glen Campbell",
+      "song_title": "Rhinestone Cowboy",
+      "year": 1975
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 228,
+    "fields": {
+      "position": 3,
+      "artist": "Elton John",
+      "song_title": "Philadelphia Freedom",
+      "year": 1975
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 229,
+    "fields": {
+      "position": 4,
+      "artist": "Freddy Fender",
+      "song_title": "Before The Next Teardrop Falls",
+      "year": 1975
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 230,
+    "fields": {
+      "position": 5,
+      "artist": "Frankie Valli",
+      "song_title": "My Eyes Adored You",
+      "year": 1975
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 231,
+    "fields": {
+      "position": 1,
+      "artist": "Wings",
+      "song_title": "Silly Love Songs",
+      "year": 1976
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 232,
+    "fields": {
+      "position": 2,
+      "artist": "Elton John and Kiki Dee",
+      "song_title": "Don't Go Breaking My Heart",
+      "year": 1976
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 233,
+    "fields": {
+      "position": 3,
+      "artist": "Johnnie Taylor",
+      "song_title": "Disco Lady",
+      "year": 1976
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 234,
+    "fields": {
+      "position": 4,
+      "artist": "Four Seasons",
+      "song_title": "December, 1963 (Oh, What A Night)",
+      "year": 1976
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 235,
+    "fields": {
+      "position": 5,
+      "artist": "Wild Cherry",
+      "song_title": "Play That Funky Music",
+      "year": 1976
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 236,
+    "fields": {
+      "position": 1,
+      "artist": "Rod Stewart",
+      "song_title": "Tonight's The Night (Gonna Be Alright)",
+      "year": 1977
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 237,
+    "fields": {
+      "position": 2,
+      "artist": "Andy Gibb",
+      "song_title": "I Just Want To Be Your Everything",
+      "year": 1977
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 238,
+    "fields": {
+      "position": 3,
+      "artist": "Emotions",
+      "song_title": "Best Of My Love",
+      "year": 1977
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 239,
+    "fields": {
+      "position": 4,
+      "artist": "Barbra Streisand",
+      "song_title": "Love Theme From \"A Star Is Born",
+      "year": 1977
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 240,
+    "fields": {
+      "position": 5,
+      "artist": "Hot",
+      "song_title": "Angel In Your Arms",
+      "year": 1977
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 241,
+    "fields": {
+      "position": 1,
+      "artist": "Andy Gibb",
+      "song_title": "Shadow Dancing",
+      "year": 1978
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 242,
+    "fields": {
+      "position": 2,
+      "artist": "Bee Gees",
+      "song_title": "Night Fever",
+      "year": 1978
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 243,
+    "fields": {
+      "position": 3,
+      "artist": "Debby Boone",
+      "song_title": "You Light Up My Life",
+      "year": 1978
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 244,
+    "fields": {
+      "position": 4,
+      "artist": "Bee Gees",
+      "song_title": "Stayin' Alive",
+      "year": 1978
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 245,
+    "fields": {
+      "position": 5,
+      "artist": "Exile",
+      "song_title": "Kiss You All Over",
+      "year": 1978
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 246,
+    "fields": {
+      "position": 1,
+      "artist": "Knack",
+      "song_title": "My Sharona",
+      "year": 1979
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 247,
+    "fields": {
+      "position": 2,
+      "artist": "Donna Summer",
+      "song_title": "Bad Girls",
+      "year": 1979
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 248,
+    "fields": {
+      "position": 3,
+      "artist": "Chic",
+      "song_title": "Le Freak",
+      "year": 1979
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 249,
+    "fields": {
+      "position": 4,
+      "artist": "Rod Stewart",
+      "song_title": "Da Ya Think I'm Sexy",
+      "year": 1979
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 250,
+    "fields": {
+      "position": 5,
+      "artist": "Peaches and Herb",
+      "song_title": "Reunited",
+      "year": 1979
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 251,
+    "fields": {
+      "position": 1,
+      "artist": "Blondie",
+      "song_title": "Call Me",
+      "year": 1980
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 252,
+    "fields": {
+      "position": 2,
+      "artist": "Pink Floyd",
+      "song_title": "Another Brick In The Wall",
+      "year": 1980
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 253,
+    "fields": {
+      "position": 3,
+      "artist": "Olivia Newton-John",
+      "song_title": "Magic",
+      "year": 1980
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 254,
+    "fields": {
+      "position": 4,
+      "artist": "Michael Jackson",
+      "song_title": "Rock With You",
+      "year": 1980
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 255,
+    "fields": {
+      "position": 5,
+      "artist": "Captain and Tennille",
+      "song_title": "Do That To Me One More Time",
+      "year": 1980
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 256,
+    "fields": {
+      "position": 1,
+      "artist": "Kim Carnes",
+      "song_title": "Bette Davis Eyes",
+      "year": 1981
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 257,
+    "fields": {
+      "position": 2,
+      "artist": "Diana Ross and Lionel Richie",
+      "song_title": "Endless Love",
+      "year": 1981
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 258,
+    "fields": {
+      "position": 3,
+      "artist": "Kenny Rogers",
+      "song_title": "Lady",
+      "year": 1981
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 259,
+    "fields": {
+      "position": 4,
+      "artist": "John Lennon",
+      "song_title": "(Just Like) Starting Over",
+      "year": 1981
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 260,
+    "fields": {
+      "position": 5,
+      "artist": "Rick Springfield",
+      "song_title": "Jessie's Girl",
+      "year": 1981
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 261,
+    "fields": {
+      "position": 1,
+      "artist": "Olivia Newton-John",
+      "song_title": "Physical",
+      "year": 1982
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 262,
+    "fields": {
+      "position": 2,
+      "artist": "Survivor",
+      "song_title": "Eye Of The Tiger",
+      "year": 1982
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 263,
+    "fields": {
+      "position": 3,
+      "artist": "Joan Jett and The Blackhearts",
+      "song_title": "I Love Rock N' Roll",
+      "year": 1982
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 264,
+    "fields": {
+      "position": 4,
+      "artist": "Paul McCartney and Stevie Wonder",
+      "song_title": "Ebony And Ivory",
+      "year": 1982
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 265,
+    "fields": {
+      "position": 5,
+      "artist": "J. Geils Band",
+      "song_title": "Centerfold",
+      "year": 1982
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 266,
+    "fields": {
+      "position": 1,
+      "artist": "Police",
+      "song_title": "Every Breath You Take",
+      "year": 1983
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 267,
+    "fields": {
+      "position": 2,
+      "artist": "Michael Jackson",
+      "song_title": "Billie Jean",
+      "year": 1983
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 268,
+    "fields": {
+      "position": 3,
+      "artist": "Irene Cara",
+      "song_title": "Flashdance... What A Feeling",
+      "year": 1983
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 269,
+    "fields": {
+      "position": 4,
+      "artist": "Men At Work",
+      "song_title": "Down Under",
+      "year": 1983
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 270,
+    "fields": {
+      "position": 5,
+      "artist": "Michael Jackson",
+      "song_title": "Beat It",
+      "year": 1983
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 271,
+    "fields": {
+      "position": 1,
+      "artist": "Prince",
+      "song_title": "When Doves Cry",
+      "year": 1984
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 272,
+    "fields": {
+      "position": 2,
+      "artist": "Tina Turner",
+      "song_title": "What's Love Got To Do With It",
+      "year": 1984
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 273,
+    "fields": {
+      "position": 3,
+      "artist": "Paul McCartney and Michael Jackson",
+      "song_title": "Say Say Say",
+      "year": 1984
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 274,
+    "fields": {
+      "position": 4,
+      "artist": "Kenny Loggins",
+      "song_title": "Footloose",
+      "year": 1984
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 275,
+    "fields": {
+      "position": 5,
+      "artist": "Phil Collins",
+      "song_title": "Against All Odds (Take A Look At Me Now)",
+      "year": 1984
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 276,
+    "fields": {
+      "position": 1,
+      "artist": "Wham!",
+      "song_title": "Careless Whisper",
+      "year": 1985
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 277,
+    "fields": {
+      "position": 2,
+      "artist": "Madonna",
+      "song_title": "Like A Virgin",
+      "year": 1985
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 278,
+    "fields": {
+      "position": 3,
+      "artist": "Wham!",
+      "song_title": "Wake Me Up Before You Go-Go",
+      "year": 1985
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 279,
+    "fields": {
+      "position": 4,
+      "artist": "Foreigner",
+      "song_title": "I Want To Know What Love Is",
+      "year": 1985
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 280,
+    "fields": {
+      "position": 5,
+      "artist": "Chaka Khan",
+      "song_title": "I Feel For You",
+      "year": 1985
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 281,
+    "fields": {
+      "position": 1,
+      "artist": "Dionne and Friends",
+      "song_title": "That's What Friends Are For",
+      "year": 1986
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 282,
+    "fields": {
+      "position": 2,
+      "artist": "Lionel Richie",
+      "song_title": "Say You, Say Me",
+      "year": 1986
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 283,
+    "fields": {
+      "position": 3,
+      "artist": "Klymaxx",
+      "song_title": "I Miss You",
+      "year": 1986
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 284,
+    "fields": {
+      "position": 4,
+      "artist": "Patti Labelle and Michael McDonald",
+      "song_title": "On My Own",
+      "year": 1986
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 285,
+    "fields": {
+      "position": 5,
+      "artist": "Mr. Mister",
+      "song_title": "Broken Wings",
+      "year": 1986
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 286,
+    "fields": {
+      "position": 1,
+      "artist": "Bangles",
+      "song_title": "Walk Like An Egyptian",
+      "year": 1987
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 287,
+    "fields": {
+      "position": 2,
+      "artist": "Heart",
+      "song_title": "Alone",
+      "year": 1987
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 288,
+    "fields": {
+      "position": 3,
+      "artist": "Gregory Abbott",
+      "song_title": "Shake You Down",
+      "year": 1987
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 289,
+    "fields": {
+      "position": 4,
+      "artist": "Whitney Houston",
+      "song_title": "I Wanna Dance With Somebody (Who Loves Me)",
+      "year": 1987
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 290,
+    "fields": {
+      "position": 5,
+      "artist": "Starship",
+      "song_title": "Nothing's Gonna Stop Us Now",
+      "year": 1987
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 291,
+    "fields": {
+      "position": 1,
+      "artist": "George Michael",
+      "song_title": "Faith",
+      "year": 1988
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 292,
+    "fields": {
+      "position": 2,
+      "artist": "INXS",
+      "song_title": "Need You Tonight",
+      "year": 1988
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 293,
+    "fields": {
+      "position": 3,
+      "artist": "George Harrison",
+      "song_title": "Got My Mind Set On You",
+      "year": 1988
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 294,
+    "fields": {
+      "position": 4,
+      "artist": "Rick Astley",
+      "song_title": "Never Gonna Give You Up",
+      "year": 1988
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 295,
+    "fields": {
+      "position": 5,
+      "artist": "Guns N' Roses",
+      "song_title": "Sweet Child O' Mine",
+      "year": 1988
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 296,
+    "fields": {
+      "position": 1,
+      "artist": "Chicago",
+      "song_title": "Look Away",
+      "year": 1989
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 297,
+    "fields": {
+      "position": 2,
+      "artist": "Bobby Brown",
+      "song_title": "My Prerogative",
+      "year": 1989
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 298,
+    "fields": {
+      "position": 3,
+      "artist": "Poison",
+      "song_title": "Every Rose Has Its Thorn",
+      "year": 1989
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 299,
+    "fields": {
+      "position": 4,
+      "artist": "Paula Abdul",
+      "song_title": "Straight Up",
+      "year": 1989
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 300,
+    "fields": {
+      "position": 5,
+      "artist": "Janet Jackson",
+      "song_title": "Miss You Much",
+      "year": 1989
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 301,
+    "fields": {
+      "position": 1,
+      "artist": "Wilson Phillips",
+      "song_title": "Hold On",
+      "year": 1990
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 302,
+    "fields": {
+      "position": 2,
+      "artist": "Roxette",
+      "song_title": "It Must Have Been Love",
+      "year": 1990
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 303,
+    "fields": {
+      "position": 3,
+      "artist": "Sinead O'Connor",
+      "song_title": "Nothing Compares 2 U",
+      "year": 1990
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 304,
+    "fields": {
+      "position": 4,
+      "artist": "Bell Biv Devoe",
+      "song_title": "Poison",
+      "year": 1990
+    }
+  },
+  {
+    "model": "musicmemoryapi.song",
+    "pk": 305,
+    "fields": {
+      "position": 5,
+      "artist": "Madonna",
+      "song_title": "Vogue",
+      "year": 1990
+    }
+  }
+]
