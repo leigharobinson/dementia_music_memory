@@ -8,7 +8,7 @@ class Facility(models.Model):
 
     class Meta:
         verbose_name = ("facility")
-        verbose_name_plural = ("facillities")
+        verbose_name_plural = ("facilities")
 
     def get_absolute_url(self):
-        return reverse("facility_detail", kwargs={"pk": self.pk})
+        return reverse("facility-detail", kwargs={"pk": self.pk})
