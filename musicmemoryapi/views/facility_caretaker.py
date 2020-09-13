@@ -4,35 +4,31 @@ from rest_framework.response import Response
 from rest_framework import serializers
 # STATUS USER FOR DESTROY/UPDATE METHODS
 from rest_framework import status
+from musicmemoryapi.models import FacilityCaretaker
 from musicmemoryapi.models import Facility
-from musicmemoryapi.models import Patient
-
-# Making sure the facility objects are avalible
-# facility_test = Facility.objects.all()
-# print(facility_test)
+from musicmemoryapi.models import Caretaker
 
 
-class PatientSerializer(serializers.HyperlinkedModelSerializer):
-    """JSON serializer for product
+class FacilityCaretakerSerializer(serializers.HyperlinkedModelSerializer):
+    """JSON serializer for Facility and Caretaker
 
     Arguments:
         serializers.HyperlinkedModelSerializer
     """
 
     class Meta:
-        model = Patient
+        model = FacilityCaretaker
         url = serializers.HyperlinkedIdentityField(
-            view_name='patients',
+            view_name='facilities_caretakers',
             lookup_field='id'
         )
-        fields = ('id', 'facility', 'first_name', 'last_name',
-                  'diagnosis', 'year_of_birth', 'facility_id')
+        fields = ('id', 'caretaker', 'caretaker_id' 'facility', 'facility_id')
         depth = 2
 
 
-class PatientView(ViewSet):
+class FacilityCaretakerView(ViewSet):
 
-    """Patient for MusicMemory API"""
+    """Facilities and Caretakers for MusicMemory API"""
 
     def create(self, request):
         """Handle POST operations
@@ -41,18 +37,16 @@ class PatientView(ViewSet):
             Response -- JSON serialized facility instance
         """
         facility = Facility.objects.get(pk=request.data["facility_id"])
+        caretaker = Caretaker.objects.get(pk=request.data["caretaker_id"])
 
-        newpatient = Patient()
-        newpatient.first_name = request.data["first_name"]
-        newpatient.last_name = request.data["last_name"]
-        newpatient.diagnosis = request.data["diagnosis"]
-        newpatient.year_of_birth = request.data["year_of_birth"]
-        newpatient.facility = facility
+        newfacilitycaretaker = FacilityCaretaker()
+        newfacilitycaretaker.facility = facility
+        newfacilitycaretaker.caretaker = caretaker
 
-        newpatient.save()
+        newfacilitycaretaker.save()
 
-        serializer = PatientSerializer(
-            newpatient, context={'request': request})
+        serializer = FacilityCaretakerSerializer(
+            newfacilitycaretaker, context={'request': request})
 
         return Response(serializer.data)
 
@@ -62,9 +56,10 @@ class PatientView(ViewSet):
         Returns:
             Response -- JSON serialized list of park areas
         """
-        patients = Patient.objects.all()  # This is my query to the database
-        serializer = PatientSerializer(
-            patients, many=True, context={'request': request})
+        facilities_caretakers = FacilityCaretaker.objects.all(
+        )  # This is my query to the database
+        serializer = FacilityCaretakerSerializer(
+            facilities_caretakers, many=True, context={'request': request})
         return Response(serializer.data)
 
     def retrieve(self, request, pk=None):
@@ -74,9 +69,9 @@ class PatientView(ViewSet):
             Response -- JSON serialized park area instance
         """
         try:
-            patient = Patient.objects.get(pk=pk)
-            serializer = PatientSerializer(
-                patient, context={'request': request})
+            facility_caretaker = FacilityCaretaker.objects.get(pk=pk)
+            serializer = FacilityCaretakerSerializer(
+                facility_caretaker, context={'request': request})
             return Response(serializer.data)
         except Exception as ex:
             return HttpResponseServerError(ex)
