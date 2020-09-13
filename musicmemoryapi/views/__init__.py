@@ -10,3 +10,4 @@ from .talkativeness import TalkativenessView
 from .vocalization import VocalizationView
 from .liked_song import LikedSongView
 from .patient import PatientView
+from .facility_caretaker import FacilityCaretakerView
