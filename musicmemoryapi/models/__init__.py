@@ -11,3 +11,4 @@ from .liked_song import LikedSong
 from .caretaker_patient import CaretakerPatient
 from .facility_caretaker import FacilityCaretaker
 from .patient_song import PatientSong
+from .playlist import Playlist
