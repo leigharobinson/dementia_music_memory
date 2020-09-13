@@ -10,9 +10,7 @@ class FacilityCaretaker(models.Model):
     methods: none
     """
 
-    caretaker = models.ForeignKey(Caretaker,
-                                  related_name="caretakers",
-                                  on_delete=models.CASCADE)
-    facility = models.ForeignKey(Facility,
-                                 related_name="facilities",
-                                 on_delete=models.CASCADE)
+    caretaker = models.ForeignKey(
+        Caretaker, related_name="facilitiescaretakers", on_delete=models.CASCADE)
+    facility = models.ForeignKey(
+        Facility, related_name="facilitiescaretakers", on_delete=models.CASCADE)

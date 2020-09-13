@@ -9,3 +9,4 @@ from .mood import Mood
 from .movement import Movement
 from .vocalization import Vocalization
 from .liked_song import LikedSong
+from .facility_caretaker import FacilityCaretaker

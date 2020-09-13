@@ -11,8 +11,8 @@ class CaretakerPatient(models.Model):
     """
 
     caretaker = models.ForeignKey(Caretaker,
-                                  related_name="caretakers",
+                                  related_name="caretakerspatients",
                                   on_delete=models.CASCADE)
     patient = models.ForeignKey(Patient,
-                                related_name="patients",
+                                related_name="caretakerspatients",
                                 on_delete=models.CASCADE)

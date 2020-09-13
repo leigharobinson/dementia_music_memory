@@ -9,9 +9,8 @@ class Patient(models.Model):
     last_name = models.CharField(max_length=100)
     diagnosis = models.CharField(max_length=100)
     year_of_birth = models.IntegerField()
-    facility = models.ForeignKey(Facility,
-                                 related_name="facility",
-                                 on_delete=models.CASCADE)
+    facility = models.ForeignKey(
+        Facility, related_name="facility", on_delete=models.CASCADE)
 
     class Meta:
         verbose_name = ("patient")

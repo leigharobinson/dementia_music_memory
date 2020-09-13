@@ -10,5 +10,5 @@ class Facility(models.Model):
         verbose_name = ("facility")
         verbose_name_plural = ("facilities")
 
-    def get_absolute_url(self):
-        return reverse("facility-detail", kwargs={"pk": self.pk})
+    def __str__(self):
+        return self.facility_name
