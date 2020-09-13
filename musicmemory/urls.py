@@ -23,7 +23,7 @@ from musicmemoryapi.views import LikedSongView, PatientView, FacilityCaretakerVi
 from musicmemoryapi.views import register_user, login_user
 
 router = routers.DefaultRouter(trailing_slash=False)
-router.register(r'caretaker', CaretakerView, 'caretaker')
+router.register(r'caretakers', CaretakerView, 'caretaker')
 router.register(r'users', UserView, 'user')
 router.register(r'facilities', FacilityView, 'facility')
 router.register(r'songs', SongView, 'song')
