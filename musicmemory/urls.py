@@ -20,7 +20,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 from musicmemoryapi.views import CaretakerView, UserView, FacilityView, SongView, MoodView
 from musicmemoryapi.views import EyeContactView, MovementView, TalkativenessView, VocalizationView
 from musicmemoryapi.views import LikedSongView, PatientView, FacilityCaretakerView
-from musicmemoryapi.views import CaretakerPatientView
+from musicmemoryapi.views import CaretakerPatientView, PatientSongView
 from musicmemoryapi.views import register_user, login_user
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -39,6 +39,7 @@ router.register(r'facilitiescaretakers',
                 FacilityCaretakerView, 'facilitycaretaker')
 router.register(r'caretakerspatients',
                 CaretakerPatientView, 'caretakerpatient')
+router.register(r'patientssongs', PatientSongView, 'patientsong')
 
 urlpatterns = [
     path('', include(router.urls)),
