@@ -22,7 +22,7 @@ class FacilityCaretakerSerializer(serializers.HyperlinkedModelSerializer):
             view_name='facilities_caretakers',
             lookup_field='id'
         )
-        fields = ('id', 'caretaker', 'caretaker_id' 'facility', 'facility_id')
+        fields = ('id', 'caretaker', 'caretaker_id', 'facility', 'facility_id')
         depth = 2
 
 
