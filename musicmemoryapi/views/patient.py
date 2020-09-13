@@ -6,8 +6,16 @@ from rest_framework import serializers
 from rest_framework import status
 from musicmemoryapi.models import Facility, Patient
 
+facility_test = Facility.objects.all()
+print(facility_test)
+
 
 class PatientSerializer(serializers.HyperlinkedModelSerializer):
+    """JSON serializer for product
+
+    Arguments:
+        serializers.HyperlinkedModelSerializer
+    """
 
     class Meta:
         model = Patient
@@ -16,7 +24,7 @@ class PatientSerializer(serializers.HyperlinkedModelSerializer):
             lookup_field='id'
         )
         fields = ('id', 'facility', 'facility', 'first_name', 'last_name',
-                  'diagnosis', 'year_of_birth', 'facility_name')
+                  'diagnosis', 'year_of_birth', 'facility_name', 'facility_id')
         depth = 2
 
 
