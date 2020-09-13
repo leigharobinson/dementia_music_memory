@@ -11,3 +11,4 @@ from .vocalization import VocalizationView
 from .liked_song import LikedSongView
 from .patient import PatientView
 from .facility_caretaker import FacilityCaretakerView
+from .caretaker_patient import CaretakerPatientView
