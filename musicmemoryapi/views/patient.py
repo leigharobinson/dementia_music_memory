@@ -5,7 +5,8 @@ from rest_framework import serializers
 # STATUS USER FOR DESTROY/UPDATE METHODS
 from rest_framework import status
 from musicmemoryapi.models import Facility
-from musicmemoryapi.models import Patient
+from musicmemoryapi.models import Patient, Caretaker
+from django.contrib.auth.models import User
 
 # Making sure the facility objects are avalible
 # facility_test = Facility.objects.all()
@@ -62,7 +63,10 @@ class PatientView(ViewSet):
         Returns:
             Response -- JSON serialized list of park areas
         """
-        patients = Patient.objects.all()  # This is my query to the database
+        user = User.objects.get(pk=request.user.id)
+        caretaker = Caretaker.objects.get(pk=user.caretaker.id)
+        # This is my query to the database
+        patients = Patient.objects.filter(caretaker_id=caretaker.id)
         serializer = PatientSerializer(
             patients, many=True, context={'request': request})
         return Response(serializer.data)

@@ -9,7 +9,7 @@ from .vocalization import Vocalization
 from .liked_song import LikedSong
 
 
-class PatientSong(models.Model):
+class SongResponse(models.Model):
     """
     Creates the join table for the many to many relationship between song and patient
     Author: Leigha
