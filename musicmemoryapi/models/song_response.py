@@ -7,6 +7,7 @@ from .mood import Mood
 from .movement import Movement
 from .vocalization import Vocalization
 from .liked_song import LikedSong
+from .caretaker import Caretaker
 
 
 class SongResponse(models.Model):
@@ -18,9 +19,11 @@ class SongResponse(models.Model):
     """
     created_at = models.DateField(auto_now_add=True)
     notes = models.CharField(max_length=1000)
-    song = models.ForeignKey(Song,
-                             related_name="patientssongs",
-                             on_delete=models.CASCADE)
+    caretaker = models.ForeignKey(
+        Caretaker, related_name="caretakers", null=True,
+        blank=True, on_delete=models.CASCADE)
+    song = models.ForeignKey(
+        Song, related_name="patientssongs", on_delete=models.CASCADE)
     patient = models.ForeignKey(Patient,
                                 related_name="patientssongs",
                                 on_delete=models.CASCADE)
@@ -29,9 +32,7 @@ class SongResponse(models.Model):
                                     null=True,  # Makes column nullable in DB
                                     blank=True,  # Allows blank value on objects
                                     on_delete=models.CASCADE)
-    talkativeness = models.ForeignKey(Talkativeness,
-                                      related_name="patientssongs",
-                                      null=True,  # Makes column nullable in DB
+    talkativeness = models.ForeignKey(Talkativeness, related_name="patientssongs", null=True,  # Makes column nullable in DB
                                       blank=True,  # Allows blank value on objects
                                       on_delete=models.CASCADE)
     mood = models.ForeignKey(Mood,
