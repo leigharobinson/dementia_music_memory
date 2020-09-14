@@ -7,3 +7,5 @@ VALUES
     ('5', 'Strongly Agree');
 
 
+DELETE FROM musicmemoryapi_patientsong
+WHERE ID = 1;
