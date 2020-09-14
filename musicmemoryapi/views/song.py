@@ -28,6 +28,8 @@ class SongView(ViewSet):
         Returns:
             Response -- JSON serialized list of park areas
         """
+        # THis is where i need to get the patient by id and then find their YOB and calculate the
+        # correct  song range to give back
         songs = Song.objects.all()  # This is my query to the database
         serializer = SongSerializer(
             songs, many=True, context={'request': request})

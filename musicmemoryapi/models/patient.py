@@ -1,6 +1,6 @@
 from django.db import models
 from django.urls import reverse
-from .facility import Facility
+from .caretaker import Caretaker
 
 
 class Patient(models.Model):
@@ -9,8 +9,9 @@ class Patient(models.Model):
     last_name = models.CharField(max_length=100)
     diagnosis = models.CharField(max_length=100)
     year_of_birth = models.IntegerField()
-    facility = models.ForeignKey(
-        Facility, related_name="facility", on_delete=models.CASCADE)
+    caretaker = models.ForeignKey(
+        Caretaker, related_name="caretakerspatients", on_delete=models.CASCADE)
+    created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name = ("patient")
