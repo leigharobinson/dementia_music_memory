@@ -4,12 +4,12 @@ from rest_framework.response import Response
 from rest_framework import serializers
 # STATUS USER FOR DESTROY/UPDATE METHODS
 from rest_framework import status
-from musicmemoryapi.models import Facility
-from musicmemoryapi.models import Patient
+from musicmemoryapi.models import Patient, Caretaker
+from django.contrib.auth.models import User
 
-# Making sure the facility objects are avalible
-# facility_test = Facility.objects.all()
-# print(facility_test)
+# Making sure the caretaker objects are avalible
+# caretaker_test = Caretaker.objects.all()
+# print(caretaker_test)
 
 
 class PatientSerializer(serializers.HyperlinkedModelSerializer):
@@ -25,8 +25,8 @@ class PatientSerializer(serializers.HyperlinkedModelSerializer):
             view_name='patients',
             lookup_field='id'
         )
-        fields = ('id', 'facility', 'first_name', 'last_name',
-                  'diagnosis', 'year_of_birth', 'facility_id')
+        fields = ('id', 'caretaker', 'first_name', 'last_name',
+                  'diagnosis', 'year_of_birth', 'caretaker_id')
         depth = 2
 
 
@@ -38,16 +38,17 @@ class PatientView(ViewSet):
         """Handle POST operations
 
         Returns:
-            Response -- JSON serialized facility instance
+            Response -- JSON serialized patient instance
         """
-        facility = Facility.objects.get(pk=request.data["facility_id"])
+        user = User.objects.get(pk=request.user.id)
+        caretaker = Caretaker.objects.get(pk=user.caretaker.id)
 
         newpatient = Patient()
         newpatient.first_name = request.data["first_name"]
         newpatient.last_name = request.data["last_name"]
         newpatient.diagnosis = request.data["diagnosis"]
         newpatient.year_of_birth = request.data["year_of_birth"]
-        newpatient.facility = facility
+        newpatient.caretaker = caretaker
 
         newpatient.save()
 
@@ -62,7 +63,10 @@ class PatientView(ViewSet):
         Returns:
             Response -- JSON serialized list of park areas
         """
-        patients = Patient.objects.all()  # This is my query to the database
+        user = User.objects.get(pk=request.user.id)
+        caretaker = Caretaker.objects.get(pk=user.caretaker.id)
+        # This is my query to the database
+        patients = Patient.objects.filter(caretaker_id=caretaker.id)
         serializer = PatientSerializer(
             patients, many=True, context={'request': request})
         return Response(serializer.data)
