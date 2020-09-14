@@ -22,9 +22,9 @@ class PlaylistSerializer(serializers.HyperlinkedModelSerializer):
             view_name='playlists',
             lookup_field='id'
         )
-        fields = ('id', 'caretaker_patient',
-                  'caretaker_patient_id', 'song', 'song_id')
-        depth = 2
+        fields = ('id', "caretaker_patient",
+                  'caretaker_patient_id', "song", 'song_id')
+        depth = 3
 
 
 class PlaylistView(ViewSet):
@@ -37,6 +37,7 @@ class PlaylistView(ViewSet):
         Returns:
             Response -- JSON serialized patients and caretakers instance
         """
+
         song = Song.objects.get(pk=request.data["song_id"])
         caretaker_patient = CaretakerPatient.objects.get(
             pk=request.data["caretaker_patient_id"])
@@ -52,18 +53,6 @@ class PlaylistView(ViewSet):
 
         return Response(serializer.data)
 
-    def list(self, request):
-        """Handle GET requests to park areas resource
-
-        Returns:
-            Response -- JSON serialized list of park areas
-        """
-        playlists = Playlist.objects.all(
-        )  # This is my query to the database
-        serializer = PlaylistSerializer(
-            playlists, many=True, context={'request': request})
-        return Response(serializer.data)
-
     def retrieve(self, request, pk=None):
         """Handle GET requests for single park area
 
@@ -77,6 +66,18 @@ class PlaylistView(ViewSet):
             return Response(serializer.data)
         except Exception as ex:
             return HttpResponseServerError(ex)
+
+    def list(self, request):
+        """Handle GET requests to park areas resource
+
+        Returns:
+            Response -- JSON serialized list of park areas
+        """
+        playlists = Playlist.objects.all(
+        )  # This is my query to the database
+        serializer = PlaylistSerializer(
+            playlists, many=True, context={'request': request})
+        return Response(serializer.data)
 
     def destroy(self, request, pk=None):
         """Handle DELETE requests for a single product
@@ -103,7 +104,7 @@ class PlaylistView(ViewSet):
             Response -- Empty body with 204 status code
         """
         playlist = Playlist.objects.get(pk=pk)
-        playlist.song = request.data["song"]
+        playlist.song_id = request.data["song_id"]
         playlist.save()
 
         return Response({}, status=status.HTTP_204_NO_CONTENT)
