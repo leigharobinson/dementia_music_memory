@@ -31,7 +31,7 @@ class SongResponseSerializer(serializers.HyperlinkedModelSerializer):
         )
         fields = ('id', 'caretaker_id', 'song', 'song_id', 'patient', 'patient_id', 'eye_contact_id', 'eye_contact',
                   'talkativeness_id', 'talkativeness', 'mood_id', 'mood', 'movement_id', 'movement',
-                  'vocalization_id', 'vocalization', 'liked_song_id', 'liked_song')
+                  'vocalization_id', 'notes', 'vocalization', 'liked_song_id', 'liked_song')
         depth = 3
 
 
@@ -70,6 +70,7 @@ class SongResponseView(ViewSet):
         newsongresponse.vocalization = vocalization
         newsongresponse.liked_song = liked_song
         newsongresponse.caretaker = caretaker
+        newsongresponse.notes = request.data["notes"]
 
         newsongresponse.save()
 
@@ -114,3 +115,21 @@ class SongResponseView(ViewSet):
             return Response(serializer.data)
         except Exception as ex:
             return HttpResponseServerError(ex)
+
+    def update(self, request, pk=None):
+        """Handle PUT requests for Movement
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+        SongResponse = SongResponse.objects.get(pk=pk)
+        SongResponse.eye_contact = request.data["eye_contact"]
+        SongResponse.talkativeness = request.data["talkativeness"]
+        SongResponse.vocalization = request.data["vocalization"]
+        SongResponse.mood = request.data["mood"]
+        SongResponse.movement = request.data["movement"]
+        SongResponse.liked_song = request.data["liked_song"]
+        SongResponse.notes = request.data["notes"]
+        SongResponse.save()
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
