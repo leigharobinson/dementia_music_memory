@@ -29,11 +29,11 @@ class SongView(ViewSet):
         Returns:
             Response -- JSON serialized list of park areas
         """
-        print("somestring ")
+        # print("somestring ")
         patient_id = request.query_params.get(
             'patient_id', None)
 
-        print("patient id", patient_id)
+        # print("patient id", patient_id)
 
         year = request.query_params.get("birth_year", None)
 
@@ -41,7 +41,7 @@ class SongView(ViewSet):
 
         if patient_id is not None:
             patient = Patient.objects.get(pk=patient_id)
-            print("patient id", patient_id)
+            # print("patient id", patient_id)
             yob = int(patient.year_of_birth)
             start_year = (yob + 10)
             last_year = (yob + 21)
