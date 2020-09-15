@@ -31,3 +31,6 @@ media/
 
 # django migrations
 migrations
+
+# sql
+musicmemorydata.session.sql
