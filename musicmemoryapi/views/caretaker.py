@@ -6,6 +6,7 @@ from rest_framework import serializers
 from rest_framework import status
 from musicmemoryapi.models import Caretaker
 from .user import UserSerializer
+from django.contrib.auth.models import User
 
 
 class CaretakerSerializer(serializers.HyperlinkedModelSerializer):
@@ -23,6 +24,22 @@ class CaretakerSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class CaretakerView(ViewSet):
+    def update(self, request, pk=None):
+        '''
+        Handling a PUT request for a customer/user
+        Returns -- Empty body with 204 status code
+        '''
+        caretaker = Caretaker.objects.get(pk=pk)
+        caretaker.title = request.data['title']
+        caretaker.save()
+
+        user = User.objects.get(pk=caretaker.user.id)
+        user.first_name = request.data['first_name']
+        user.last_name = request.data['last_name']
+        user.username = request.data['username']
+        user.save()
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
     def retrieve(self, request, pk=None):
         try:
@@ -35,7 +52,7 @@ class CaretakerView(ViewSet):
 
     def list(self, request):
 
-        caretakers = Caretaker.objects.all()
+        caretakers = Caretaker.objects.filter(user=request.auth.user)
         serializer = CaretakerSerializer(
             caretakers, many=True, context={'request': request})
         return Response(serializer.data)

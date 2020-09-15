@@ -84,3 +84,37 @@ class PatientView(ViewSet):
             return Response(serializer.data)
         except Exception as ex:
             return HttpResponseServerError(ex)
+
+    def destroy(self, request, pk=None):
+        """Handle DELETE requests for a single park area
+        Returns:
+            Response -- 200, 404, or 500 status code
+        """
+        try:
+            patient = Patient.objects.get(pk=pk)
+            patient.delete()
+
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+        except Patient.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+    def update(self, request, pk=None):
+        '''
+        Handling a PUT request for a customer/user
+        Returns -- Empty body with 204 status code
+        '''
+
+        # This is my query to the database
+        patient = Patient.objects.get(pk=pk)
+        patient.first_name = request.data['first_name']
+        patient.last_name = request.data['last_name']
+        patient.diagnosis = request.data['diagnosis']
+        patient.year_of_birth = request.data['year_of_birth']
+        patient.save()
+        serializer = PatientSerializer(patient, context={'request': request})
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
