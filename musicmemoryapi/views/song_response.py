@@ -117,19 +117,37 @@ class SongResponseView(ViewSet):
             return HttpResponseServerError(ex)
 
     def update(self, request, pk=None):
-        """Handle PUT requests for Movement
+        """Handle PUT requests for Song Responses
 
         Returns:
             Response -- Empty body with 204 status code
         """
-        SongResponse = SongResponse.objects.get(pk=pk)
-        SongResponse.eye_contact = request.data["eye_contact"]
-        SongResponse.talkativeness = request.data["talkativeness"]
-        SongResponse.vocalization = request.data["vocalization"]
-        SongResponse.mood = request.data["mood"]
-        SongResponse.movement = request.data["movement"]
-        SongResponse.liked_song = request.data["liked_song"]
-        SongResponse.notes = request.data["notes"]
-        SongResponse.save()
+
+        song_response = SongResponse.objects.get(pk=pk)
+        song_response.notes = request.data["notes"]
+        song_response.eye_contact_id = request.data["eye_contact_id"]
+        song_response.talkativeness_id = request.data["talkativeness_id"]
+        song_response.mood_id = request.data["mood_id"]
+        song_response.movement_id = request.data["movement_id"]
+        song_response.vocalization_id = request.data["vocalization_id"]
+        song_response.liked_song_id = request.data["liked_song_id"]
+        song_response.save()
 
         return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+    def destroy(self, request, pk=None):
+        """Handle DELETE requests for a single park area
+        Returns:
+            Response -- 200, 404, or 500 status code
+        """
+        try:
+            song_response = SongResponse.objects.get(pk=pk)
+            song_response.delete()
+
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+        except SongResponse.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
