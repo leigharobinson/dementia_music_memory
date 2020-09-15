@@ -115,6 +115,6 @@ class PatientView(ViewSet):
         patient.diagnosis = request.data['diagnosis']
         patient.year_of_birth = request.data['year_of_birth']
         patient.save()
-        serializer = PatientSerializer(patient, context={'request': request})
+        # serializer = PatientSerializer(patient, context={'request': request})
 
         return Response({}, status=status.HTTP_204_NO_CONTENT)
