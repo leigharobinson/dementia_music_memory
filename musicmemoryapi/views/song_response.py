@@ -29,7 +29,7 @@ class SongResponseSerializer(serializers.HyperlinkedModelSerializer):
             view_name='song_response',
             lookup_field='id'
         )
-        fields = ('id', 'caretaker_id', 'song', 'song_id', 'patient', 'patient_id', 'eye_contact_id', 'eye_contact',
+        fields = ('id', 'caretaker_id', 'created_at', 'song', 'song_id', 'patient', 'patient_id', 'eye_contact_id', 'eye_contact',
                   'talkativeness_id', 'talkativeness', 'mood_id', 'mood', 'movement_id', 'movement',
                   'vocalization_id', 'notes', 'vocalization', 'liked_song_id', 'liked_song')
         depth = 3
