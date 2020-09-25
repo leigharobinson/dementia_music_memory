@@ -50,6 +50,7 @@ class SongResponseView(ViewSet):
         """
         patient = Patient.objects.get(pk=request.data["patient_id"])
         song = Song.objects.get(pk=request.data["song_id"])
+        caretaker = Caretaker.objects.get(pk=request.data["caretaker_id"])
         eye_contact = EyeContact.objects.get(pk=request.data["eye_contact_id"])
         talkativeness = Talkativeness.objects.get(
             pk=request.data["talkativeness_id"])
