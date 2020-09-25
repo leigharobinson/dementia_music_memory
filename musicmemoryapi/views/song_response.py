@@ -29,7 +29,7 @@ class SongResponseSerializer(serializers.HyperlinkedModelSerializer):
             view_name='song_response',
             lookup_field='id'
         )
-        fields = ('id', 'caretaker_id', 'song', 'song_id', 'patient', 'patient_id', 'eye_contact_id', 'eye_contact',
+        fields = ('id', 'caretaker_id', 'created_at', 'song', 'song_id', 'patient', 'patient_id', 'eye_contact_id', 'eye_contact',
                   'talkativeness_id', 'talkativeness', 'mood_id', 'mood', 'movement_id', 'movement',
                   'vocalization_id', 'notes', 'vocalization', 'liked_song_id', 'liked_song')
         depth = 3
@@ -50,6 +50,7 @@ class SongResponseView(ViewSet):
         """
         patient = Patient.objects.get(pk=request.data["patient_id"])
         song = Song.objects.get(pk=request.data["song_id"])
+        caretaker = Caretaker.objects.get(pk=request.data["caretaker_id"])
         eye_contact = EyeContact.objects.get(pk=request.data["eye_contact_id"])
         talkativeness = Talkativeness.objects.get(
             pk=request.data["talkativeness_id"])

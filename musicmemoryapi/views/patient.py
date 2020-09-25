@@ -27,7 +27,7 @@ class PatientSerializer(serializers.HyperlinkedModelSerializer):
         )
         fields = ('id', 'caretaker', 'first_name', 'last_name',
                   'diagnosis', 'year_of_birth', 'caretaker_id')
-        depth = 2
+        depth = 4
 
 
 class PatientView(ViewSet):
